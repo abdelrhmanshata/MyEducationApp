@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shata.myeducationapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/education_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/education_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyEducationApp">
+        <activity android:name=".UI.Auth.ForgetPasswordActivity"></activity>
+        <activity android:name=".UI.Auth.LoginActivity" />
+        <activity android:name=".UI.Auth.RegisterActivity" />
+        <activity android:name=".UI.Student.StudentHomeWorkActivity" />
+        <activity android:name=".UI.Student.StudentExamActivity" />
+        <activity android:name=".UI.Student.StudentSelectActivity" />
+        <activity android:name=".UI.Student.StudentActivity" />
+        <activity android:name=".UI.IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UI.HomeWork.AllHomeWorkActivity" />
+        <activity android:name=".UI.HomeWork.AddHomeWorkActivity" />
+        <activity android:name=".UI.Lecuter.AddLectuerActivity" />
+        <activity android:name=".UI.Lecuter.LectuerActivity" />
+        <activity android:name=".UI.Lecuter.AllLectuersActivity" />
+        <activity android:name=".UI.HomeWork.HomeWorkActivity" />
+        <activity android:name=".UI.Exam.QuestionsActivity" />
+        <activity android:name=".UI.Exam.AddExamActivity" />
+        <activity android:name=".UI.Exam.ExamsActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

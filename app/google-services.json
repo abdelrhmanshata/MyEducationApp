@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "989963193416",
+    "project_id": "education-app-d03d1",
+    "storage_bucket": "education-app-d03d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989963193416:android:f25d2c66a6912e76f21c7d",
+        "android_client_info": {
+          "package_name": "com.shata.myeducationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989963193416-v6j5jfgiggk1m9hfjgq9jdcredjvvk7f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shata.myeducationapp",
+            "certificate_hash": "c055579f47ac5a2cb29f3af94aef34c83acb1e40"
+          }
+        },
+        {
+          "client_id": "989963193416-7lc1akvptea3ied057vh0tse162ggh9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa1vXwEXekdSfM_hLfHoe4sdrTyrONjKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989963193416-7lc1akvptea3ied057vh0tse162ggh9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
